@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+/* Navigation Styles */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+/* Card Styles */
+.news-card {
+  transition: transform 0.2s;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Live Badge Styles */
+.live-badge {
+  background-color: #c00;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+/* Timestamp Styles */
+.time-stamp {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.btn-outline-primary{
+  background-color: #ffffff;  /* اللون الأساسي */
+  color: rgb(0, 0, 0);  /* لون النص */
+  border: none;  /* إزالة الحدود */
+  padding: 12px 24px;  /* المسافات الداخلية */
+  margin-left: 10px;
+  font-size: 16px;  /* حجم النص */
+  border-radius: 50px;  /* الحدود الدائرية */
+  cursor: pointer;  /* تغيير المؤشر عند التمرير فوق الزر */
+  transition: all 0.3s ease;  /* تأثيرات التحول */
+  text-decoration: underline;
+}
+
+.btn-outline-primary:hover{
+
+  background-color: none;
+  
+}
+
+.fa-play{
+  width: 34px;
+  height: 34px;
+  align-content: center;
+  background-color: #000000;  /* اللون الأساسي */
+  color: rgb(255, 255, 255);  /* لون النص */
+  border: none;
+  padding: 4px;
+  margin-left: 10px;
+  font-size: 16px;  /* حجم النص */
+  border-radius: 50px;  /* الحدود الدائرية */
+
+}
+
+.btn-primary{
+  background-color: #000000;  /* اللون الأساسي */
+  color: white;  /* لون النص */
+  border: none;  /* إزالة الحدود */
+  padding-left: 24px ;  /* المسافات الداخلية */
+  padding-right: 24px ;  /* المسافات الداخلية */
+  font-size: 16px;  /* حجم النص */
+  border-radius: 50px;  /* الحدود الدائرية */
+  cursor: pointer;  /* تغيير المؤشر عند التمرير فوق الزر */
+  transition: all 0.3s ease;  /* تأثيرات التحول */
+
+}
+
+.btn-primary:hover{
+  background-color: #424242;  /* اللون الأساسي */
+  
+
+}
+
+
+
+.nav-item{
+font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(0 0 0);
+  text-decoration: underline;
+}
+
+.fa-search{
+  display: flex;
+  align-Content: center; 
+  align-Items:center;
+  margin-left: 20px;
+  padding:5px;
+  font-size: 24px;
+}
+
+.navbar-expand-lg{
+  box-shadow: 2px 0px 4px rgba(129, 129, 129, 0.3);
+
+
+}
+
+.img{
+  height: 135px;
+}
